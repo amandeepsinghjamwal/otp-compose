@@ -1,8 +1,5 @@
 package otp.view.compose
 
-import android.annotation.SuppressLint
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.Immutable
 import androidx.compose.ui.graphics.Color
