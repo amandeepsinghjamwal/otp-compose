@@ -1,6 +1,11 @@
 package otp.view.compose
 
-object InputSizeOptions {
-    const val INPUT_SIZE_FOUR = 4
-    const val INPUT_SIZE_SIX = 6
+/**
+ * [InputSizeOptions.INPUT_SIZE_FOUR] for four digit otp
+ *
+ * [InputSizeOptions.INPUT_SIZE_SIX] for six digit otp
+ */
+enum class InputSizeOptions(val size: Int) {
+    INPUT_SIZE_FOUR(4),
+    INPUT_SIZE_SIX(6)
 }

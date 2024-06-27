@@ -45,6 +45,7 @@ BoxOtpView(
     inputLength = InputSizeOptions.INPUT_SIZE_FOUR,
     containerSize = 45.dp,
     containerSpacing = 10.dp,
+    containerShape = AbsoluteRoundedCornerShape(10.dp),
     modifier = Modifier,
     otpBoxColors = OtpBoxDefaults.otpBoxColors(),
     textStyle = TextStyle()
