@@ -123,7 +123,7 @@ fun BoxOtpView(
 
 
 /**
- * Example usage: [Github](https://github.com/amandeepsinghjamwal/otp-compose/tree/master?tab=readme-ov-file#boxotpview)
+ * Example usage: [Github](https://github.com/amandeepsinghjamwal/otp-compose?tab=readme-ov-file#dashedotpview)
  *
  * @param modifier modifies the applied layout
  * @param inputLength defines input length, options are [InputSizeOptions]
