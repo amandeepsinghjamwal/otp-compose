@@ -19,12 +19,12 @@ Add the following dependency to your `build.gradle` or `build.gradle.kts` file:
 ```groovy
 <!-- Groovy -->
 dependencies {
-    implementation 'com.github.amandeepsinghjamwal:otp-compose:1.3'
+    implementation 'com.github.amandeepsinghjamwal:otp-compose:1.0.0'
 }
 
 <!-- Kotlin DSL-->
 dependencies {
-    implementation("com.github.amandeepsinghjamwal:otp-compose:1.3")
+    implementation("com.github.amandeepsinghjamwal:otp-compose:1.0.0")
 }
  ```
 
