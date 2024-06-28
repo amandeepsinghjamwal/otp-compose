@@ -42,14 +42,27 @@ maven {url = URI("https://jitpack.io") }
 ### BoxOtpView
 ```kotlin
 BoxOtpView(
+    modifier = Modifier,
     inputLength = InputSizeOptions.INPUT_SIZE_FOUR,
     containerSize = 45.dp,
     containerSpacing = 10.dp,
     containerShape = AbsoluteRoundedCornerShape(10.dp),
-    modifier = Modifier,
+    hideOtp = false,
     otpBoxColors = OtpBoxDefaults.otpBoxColors(),
     textStyle = TextStyle()
     ) { otp-> }
+```
+### DashedOtpView
+```kotlin
+DashedOtpView(
+    modifier = Modifier,
+    inputLength = InputSizeOptions.INPUT_SIZE_FOUR,
+    textStyle = OtpViewDefaults.textStyle(color = Color.Black),
+    dashSpacing = 12.dp,
+    dashWidth = 40.dp,
+    hideOtp = false,
+    dashColors = OtpViewDefaults.dashedOtpColors()
+    ) {otp-> }
 ```
 
 ## Contributing
